@@ -219,7 +219,7 @@
 			"file": "scripts/main.js",
 			"settings":
 			{
-				"buffer_size": 4556,
+				"buffer_size": 4563,
 				"line_ending": "Unix"
 			}
 		},
@@ -458,10 +458,12 @@
 	"expanded_folders":
 	[
 		"/Users/chip/React-For-Beginners-Starter-Files/catch-of-the-day",
+		"/Users/chip/React-For-Beginners-Starter-Files/catch-of-the-day/node_modules/history/lib",
 		"/Users/chip/React-For-Beginners-Starter-Files/catch-of-the-day/scripts"
 	],
 	"file_history":
 	[
+		"/Users/chip/React-For-Beginners-Starter-Files/catch-of-the-day/package.json",
 		"/Users/chip/PBS/front-end-node-modules/modules/video-grid/src/scss/video-grid.scss",
 		"/Users/chip/PBS/front-end-node-modules/modules/video-grid/scss/video-grid.scss",
 		"/Users/chip/PBS/front-end-node-modules/devday.sublime-project",
@@ -588,8 +590,7 @@
 		"/Users/chip/PBS/vagrant-pbs/pbsorg/pbsorg/pbsorg/static_src/components/page-header/search.scss",
 		"/Users/chip/PBS/vagrant-pbs/pbsorg/pbsorg/pbsorg/static_src/components/page-header/navigation.js",
 		"/Users/chip/PBS/vagrant-pbs/pbsorg/pbsorg/pbsorg/tests/integration/viewtests/test_video_views.py",
-		"/Users/chip/PBS/vagrant-pbs/pbsorg/pbsorg/pbsorg/static_src/components/page-header/station.scss",
-		"/Users/chip/PBS/vagrant-pbs/pbsorg/pbsorg/pbsorg/static_src/components/legos/legos.scss"
+		"/Users/chip/PBS/vagrant-pbs/pbsorg/pbsorg/pbsorg/static_src/components/page-header/station.scss"
 	],
 	"find":
 	{
@@ -735,6 +736,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"loadSamples",
+			"input",
+			"Header",
 			"createBrowserHistory",
 			"StorePicker",
 			"Header",
@@ -859,10 +863,7 @@
 			"-height",
 			"CONTAINER",
 			"_hideStationDropdown",
-			"hideStationMenu",
-			"user-dropdown",
-			"font-smoothing",
-			"bold"
+			"hideStationMenu"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -985,15 +986,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4556,
+						"buffer_size": 4563,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1470,
-								1470
+								754,
+								754
 							]
 						],
 						"settings":
@@ -1004,7 +1005,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1245.0,
+						"translation.y": 203.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1673,7 +1674,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 157.0,
+	"side_bar_width": 181.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

@@ -43,11 +43,11 @@ var App = React.createClass({
       <div className="catch-of-the-day">
         <div className="menu">
           <Header tagline="Fresh Seafood Market" />
+          <ul className="list-of-fishes">
+            {Object.keys(this.state.fishes).map(this.renderFish)}
+          </ul>
         </div>
 
-        <ul className="list-of-fishes">
-          {Object.keys(this.state.fishes).map(this.renderFish)}
-        </ul>
         <Order />
         <Inventory addFish={this.addFish} loadSamples={this.loadSamples} />
       </div>
@@ -151,7 +151,7 @@ var Inventory = React.createClass({
     return (
       <div>
         <h2>Inventory</h2>
-        <AddFishForm { ...this.props }/>
+        <AddFishForm { ...this.props } />
 
         <button onClick={this.props.loadSamples}>Load Sample Fishes</button>
       </div>
