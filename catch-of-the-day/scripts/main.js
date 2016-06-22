@@ -86,7 +86,7 @@ var App = React.createClass({
     return (
       <div className="catch-of-the-day">
         <div className="menu">
-          <Header tagline="Fresh Seafood Market" />
+          <Header tagline="Chip is Cool" />
           <ul className="list-of-fishes">
             {Object.keys(this.state.fishes).map(this.renderFish)}
           </ul>
@@ -184,6 +184,9 @@ var Header = React.createClass({
         <h3 className="tagline"><span>{tagline}</span></h3>
       </header>
       )
+  },
+  propTypes : {
+    tagline : React.PropTypes.string.isRequired
   }
 });
 
@@ -248,6 +251,11 @@ var Order = React.createClass({
         </CSSTransitionGroup>
       </div>
       )
+  },
+  propTypes : {
+    fishes : React.PropTypes.object.isRequired,
+    order : React.PropTypes.object.isRequired,
+    removeFromOrder : React.PropTypes.func.isRequired
   }
 });
 
@@ -286,7 +294,14 @@ var Inventory = React.createClass({
       </div>
 
       )
-  }
+  },
+  propTypes : {
+    addFish : React.PropTypes.func.isRequired,
+    loadSamples : React.PropTypes.func.isRequired,
+    fishes : React.PropTypes.object.isRequired,
+    linkState : React.PropTypes.func.isRequired,
+    removeFish : React.PropTypes.func.isRequired
+ }
 });
 
 /*
