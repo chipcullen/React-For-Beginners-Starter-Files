@@ -31,7 +31,7 @@ class StorePicker extends React.Component {
     )
   }
 
-}
+};
 
 reactMixin.onClass(StorePicker, History);
 
